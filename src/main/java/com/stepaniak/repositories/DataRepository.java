@@ -1,7 +1,6 @@
 package com.stepaniak.repositories;
 
 import com.stepaniak.entities.DataEntity;
-import org.jetbrains.annotations.NotNull;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
