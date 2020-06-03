@@ -1,0 +1,21 @@
+schema{
+    query: Query
+    mutation: Mutation
+}
+
+type Query{
+    findAll: [Data]
+    findById(id: String!): Data
+}
+
+type Mutation{
+    create(content: String!): Data
+    update(id: String!, content: String!): Data
+    delete(id: String!): Data
+}
+
+type Data {
+    id: String!
+    content: String!
+    date: String!
+}

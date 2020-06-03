@@ -1,0 +1,136 @@
+mutation{
+	create(content:"Some content"){
+		id,
+		content,
+		date
+	}
+}
+
+--------------------------------------------------
+
+mutation{
+	create(content:"Some another content"){
+		id,
+		content,
+		date
+	}
+}
+
+---------------------------------------------------
+
+query{
+
+	findAll{
+
+		id,
+
+		content,
+
+		date
+	
+	}
+
+}
+
+---------------------------------------------------
+
+query{
+	
+	findById(id:"5ed789c5d42488680d0f676e"){
+
+		id,
+
+		content,
+
+		date
+
+	}
+
+}
+//use your id 
+
+
+---------------------------------------------------
+
+mutation{
+	update(id:"5ed789c5d42488680d0f676e",content:"another content"){
+
+		id,
+
+		content,
+
+		date
+
+	}
+
+}
+//use your id 
+
+---------------------------------------------------
+
+mutation{
+
+	delete(id:"5ed789c5d42488680d0f676e"){
+
+		id,
+
+		content,
+
+		date
+
+	}
+
+}
+//use your id 
+
+---------------------------------------------------
+
+
+query{
+	
+	findById(id:"5ed789c5d42488680d0f676e"){
+
+		id,
+
+		content,
+
+		date
+
+	}
+
+}
+//use your id 
+
+
+---------------------------------------------------
+
+mutation{
+	update(id:"5ed789c5d42488680d0f676e",content:"another content"){
+
+		id,
+
+		content,
+
+		date
+
+	}
+
+}
+//use your id 
+
+---------------------------------------------------
+
+mutation{
+
+	delete(id:"5ed789c5d42488680d0f676e"){
+
+		id,
+
+		content,
+
+		date
+
+	}
+
+}
+//use your id 
